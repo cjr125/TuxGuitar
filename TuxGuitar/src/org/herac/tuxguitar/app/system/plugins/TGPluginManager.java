@@ -28,6 +28,7 @@ public class TGPluginManager {
 			while(it.hasNext()){
 				try{
 					TGPlugin plugin = (TGPlugin)it.next();
+					System.out.println("Initializing Plugin: " + plugin.getName());
 					plugin.init();
 					this.plugins.add(plugin);
 				}catch(TGPluginException exception){

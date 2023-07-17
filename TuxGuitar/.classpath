@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry excluding="org/herac/tuxguitar/app/mixer/TGMixer.java|org/herac/tuxguitar/app/mixer/TGMixerTrack.java|org/herac/tuxguitar/app/mixer/TGMixerTrackChannel.java|org/herac/tuxguitar/app/undo/undoables/track/UndoableTrackChannel.java" kind="src" path="src"/>
+	<classpathentry kind="src" path="share"/>
+	<classpathentry kind="lib" path="lib/com.lowagie.text-2.1.7.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
